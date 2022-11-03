@@ -1,0 +1,249 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 2010  Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Sep 28 21:29:29 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+QTDIR = /usr/lib64/qt-3.3
+# environment
+GUETZLI = /home/project/guetzli/bin/Release/
+# environment
+VSCODE_AGENT_FOLDER = /root/.vscode-server
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 3.82
+# makefile
+CURDIR := /usr/local/go/src
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"52a557de5c39607b04949a9e2e3aeee5.zh-cn","_translationsConfigFile":"/root/.vscode-server/data/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn/tcf.json","_cacheRoot":"/root/.vscode-server/data/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn","_resolvedLanguagePackCoreLocation":"/root/.vscode-server/data/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn/74b1f979648cc44d385a2286793c226e611f59e7","_corruptedFile":"/root/.vscode-server/data/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# environment
+MAVEN_HOME = /home/software/apache-maven-3.5.3/
+# makefile
+MAKEFILE_LIST := 
+# environment
+HISTCONTROL = ignoredups
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# environment
+VSCODE_CWD = /root
+# environment
+GOPROXY = https://goproxy.cn,direct
+# environment
+SSH_CONNECTION = 192.168.0.1 13728 192.168.0.201 22
+# environment
+PATH = /usr/local/go/bin:/root/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/bin/remote-cli:/home/project/guetzli/bin/Release/:/home/software/apache-maven-3.5.3//bin:/home/software/storm/apache-storm-1.2.1//bin:/home/software/redis/redis-5.0.2///src:/usr/local/go//bin:/root/go//bin:/home/software/sonar-qube/sonarqube-7.1/bin/linux-x86-64/:/home/software/mongodb/mongodb-linux-x86_64-rhel70-4.0.1//bin:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
+# environment
+QT_GRAPHICSSYSTEM_CHECKED = 1
+# environment
+XDG_RUNTIME_DIR = /run/user/0
+# environment
+GOPATH = /home/xiaotian/go
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+SELINUX_USE_CURRENT_RANGE = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver check-symlink
+# environment
+HOME = /root
+# automatic
+%F = $(notdir $%)
+# environment
+DEP_HOME = /root/go/
+# environment
+PWD = /usr/local/go/src
+# environment
+REDIS_HOME = /home/software/redis/redis-5.0.2//
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/0/vscode-ipc-bbaca6b0-d8ca-4e2d-ab5a-f9c4de405b6b.sock
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+GOMODCACHE = /home/xiaotian/go/pkg/mod
+# environment
+MONGODB_HOME = /home/software/mongodb/mongodb-linux-x86_64-rhel70-4.0.1/
+# environment
+LOGNAME = root
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# environment
+SELINUX_LEVEL_REQUESTED = 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+HOSTNAME = centos_201
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 5
+# environment
+XDG_SESSION_ID = 1
+# environment
+USER = root
+# environment
+QTLIB = /usr/lib64/qt-3.3/lib
+# environment
+GOROOT = /usr/local/go/
+# environment
+SONAR_HOME = /home/software/sonar-qube/sonarqube-7.1/bin/linux-x86-64/
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# environment
+CVS_RSH = ssh
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# environment
+SSH_CLIENT = 192.168.0.1 13728 22
+# environment
+MAIL = /var/spool/mail/root
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /root/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+STORM_HOME = /home/software/storm/apache-storm-1.2.1/
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# environment
+SELINUX_ROLE_REQUESTED = 
+# default
+SUFFIXES := 
+# environment
+HISTSIZE = 1000
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+QTINC = /usr/lib64/qt-3.3/include
+# default
+.RECIPEPREFIX := 
+# makefile
+.DEFAULT_GOAL := 
+# environment
+LANG = C
+# variable set hash-table stats:
+# Load=79/1024=8%, Rehash=0, Collisions=11/98=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 64768, inode 101973624): 70 files, no impossibilities.
+
+# 70 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0 / lookups = 81 / hits = 81
+# # of strcache buffers: 1 (* 8176 B/buffer = 8176 B)
+# strcache used: total = 0 (593) / max = 0 / min = 8176 / avg = 0
+# strcache free: total = 0 (7583) / max = 0 / min = 8176 / avg = 0
+
+# strcache hash-table stats:
+# Load=78/8192=1%, Rehash=0, Collisions=2/81=2%
+# Finished Make data base on Wed Sep 28 21:29:29 2022
+
+ 
+make: *** No rule to make target `all'.  Stop.
+
